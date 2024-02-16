@@ -1,0 +1,92 @@
+
+header{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    background-color: rgb(235, 243, 252);
+
+}
+
+.container{
+    display: flex;
+}
+
+.list{
+    width: 50%;
+    border: 1px solid rgb(132, 132, 138);
+    margin:5px;
+    font-size: 20px;
+    font-family: ;
+    padding: 20px;
+    text-align: left;
+}
+
+.menu_container{
+    display: flex;
+}
+
+.menu_block{
+    font-size: 25px;
+    font-family: ;
+    padding: 20px;
+}
+
+figcaption{
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+h1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+
+img{
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+table{
+    display: block;
+    justify-content: center; 
+}
+
+caption{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+tr{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    background-color: rgb(235, 243, 252);
+}
+
+
