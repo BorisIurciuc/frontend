@@ -1,10 +1,31 @@
 
 header{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
-    background-color: rgb(235, 243, 252);
+    background-image: url("./Image/underwater_bottom.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 90;
+}
 
+.header_container{
+    display: flex;
+}
+
+.header_leftblock{
+   padding: 5px;
+}
+
+.header_rightblock{
+    position: relative;
+    padding: 5;
+    width: 100%;
+    height: 50px;
+}
+
+.header_text{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
 }
 
 .container{
@@ -16,19 +37,68 @@ header{
     border: 1px solid rgb(132, 132, 138);
     margin:5px;
     font-size: 20px;
-    font-family: ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
     text-align: left;
 }
 
-.menu_container{
+.main_container{
     display: flex;
 }
 
-.menu_block{
-    font-size: 25px;
-    font-family: ;
+.left_container{
+    width: 20%;
     padding: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: lef;
+    border: 0.5px solid rgb(196, 196, 196);
+    width: 15%;
+    display: block;
+}
+
+.left_menu{
+   
+    padding: 4px;
+    font-size: 20px;
+    border: 0.5px solid rgb(196, 196, 196);
+    background-color: rgb(249, 253, 253);
+    height: 40px;
+    position: relative;
+    line-height: -10px;
+}
+
+.centr_container{
+    padding: 20px;
+    width: 65%;
+    border: 0.5px solid rgb(196, 196, 196);
+}
+
+
+.right_container{
+    padding: 20px;
+    width: 20%;
+   
+    position: relative;
+}
+
+.right_container_top1{
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow-y: auto;
+}
+
+.right_container_top2{
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow-y: auto;
 }
 
 figcaption{
@@ -42,20 +112,20 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
 }
+
 h1{
-    font-size: 18px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 h2{
-    font-size: 16px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h3{
-    font-size: 14px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-
 }
 
 img{
@@ -64,8 +134,6 @@ img{
     display: block; 
     margin: 0 auto;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   
 }
 
 table{
@@ -83,10 +151,18 @@ tr{
 }
 
 footer{
+    padding: 1px 1px 1px 1px;
+    background-image: url("./Image/underwater_bottom.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text_footer{
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000000;
-    background-color: rgb(235, 243, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
 }
 
 
