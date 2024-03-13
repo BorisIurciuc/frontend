@@ -1,3 +1,4 @@
+//Задан массив
 const cars = [
     { brand: "BMW", price: 20000, isDiesel: true },
     { brand: "Mercedes", price: 22000, isDiesel: false },
